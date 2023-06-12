@@ -1,0 +1,321 @@
+/* Start General Rulez */
+
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    height: auto;
+    font-family: Tahoma;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* End General Rulez */
+
+/* Start Heading */
+
+.container {
+    
+    width: 1150px;
+    margin: auto;
+    
+}
+
+.header {
+    
+    width: 100%;
+    height: 350px;
+    background-color: blueviolet;
+    margin-top: 0;
+    overflow: hidden;
+    
+}
+
+.header .heading {
+    width: 50%;
+    float: left;
+    margin-top: 100px;
+    border-right: 1px solid darkgray;
+}
+
+.header .heading h2 {
+    
+    width: 50%;
+    color: #fff;
+    line-height: 1.7;
+    font-size: 25px;
+    
+}
+
+.header .heading h2 span {
+    text-transform: uppercase;
+}
+
+.header .heading h2 span:hover {
+    color: #00BC8A;
+    cursor: pointer;
+}
+
+.header .lorem {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 100px;
+    float: left;    
+}
+
+.header .lorem p {
+    color: darkgray;
+    line-height: 1.7;
+    font-weight: bold;
+}
+
+.header .lorem button {
+    border: 0;
+    padding: 10px 30px;
+    background-color: #00BC8A;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+}
+
+/* End Heading */
+
+/* Start Magna */
+
+.magna {
+    width: 100%;
+    height: 400px;
+    border-bottom: 2px solid #DDD;
+    padding-top: 50px;
+}
+
+.magna .learn {
+    width: 50%;
+    float: left;
+    border-right: 1px solid darkgray;
+}
+
+.magna .learn h2 {
+    color: #5d6265;
+}
+
+.magna .learn p {
+    width: 80%;
+    line-height: 1.7;
+    margin: 30px 0;
+}
+
+.magna .learn button {
+    background: none;
+    padding: 10px 30px;
+    border: 1px solid darkgray;
+    border-radius: 50px;
+    color: #5d6265;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.magna .learn button:hover {
+    background-color: #00BC8A;
+    color: #fff;
+    border: 0;
+}
+
+.magna .ipsum {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    line-height: 2.3;
+    visibility: hidden;
+}
+
+.magna .ipsum p i {
+    color: #00BC8A;
+    margin-right: 1%;
+}
+
+/* End Magna */
+
+/* Start Features */
+
+.features {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    overflow: hidden;
+}
+
+.features .part {
+    height: 430px;
+}
+
+.features .part img {
+    float: left;
+    width: 40%;
+}
+
+.features .part img:hover {
+    border: 1px solid #000;
+    padding: 5px;
+}
+
+.features .part .he {
+    float: left;
+    width: 40%;
+    padding-left: 70px;
+    padding-top: 50px;
+}
+
+.features .part .he h2 {
+    color: #777;
+}
+
+.features .part .he p {
+    color: #888;
+    line-height: 1.7;
+    
+}
+
+.features .part .he button {
+    margin-top: 30px;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    background: none;
+    border: 1px solid #CCC;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: 0;
+    font-weight: bold;
+    color: #777;
+}
+
+.features .part .he button:hover {
+    background-color: #00BC8A;
+    color: #fff;
+    border: 0;
+}
+
+/* End Features */
+
+/* Start contact-us */
+
+.contact-us {
+    width: 100%;
+    height: 580px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-us .form {
+    float: left;
+    width: 45%;
+    padding: 10px;
+    border-right: 1px solid #999;
+}
+
+.contact-us .form h1 {
+    color: #666;
+}
+
+.contact-us .form p {
+    line-height: 1.7;
+    margin: 30px 0;
+    width: 80%;
+}
+
+.contact-us .form form input[name="username"] {
+    padding: 10px;
+    margin-right: 15px;
+}
+
+.contact-us .form form input[name="email"] {
+    padding: 10px;
+}
+
+.contact-us .form form textarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 457px;
+    height: 200px;
+}
+
+.contact-us .form button {
+    margin-top: 30px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    background: none;
+    border: 1px solid #CCC;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: 0;
+    font-weight: bold;
+    color: #777;   
+}
+
+.contact-us .form button:hover {
+    background-color: #00BC8A;
+    color: #fff;
+    border: 0;
+}
+
+.contact-us .social {
+    float: left;
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.contact-us .social p {
+    line-height: 2;
+    font-size: 20px;
+}
+
+.contact-us .social i span {
+    transition: .5s ease;
+    margin-left: 20px;
+}
+
+.contact-us .social i:hover span{
+  color: tomato;
+}
+
+.contact-us .social i {
+    color: #00BC8A;
+    margin-right: 5%;
+}
+
+
+
+/* End contact-us */
+
+/* Start Footer */
+
+.footer {
+    width: 100%;
+    height: 150px;
+    border-top: 4px solid #DDD;
+    background-color: #777;
+}
+
+.footer p {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/* End Footer */
+
+
